@@ -1,0 +1,3 @@
+include ':tianjin'
+include ':zBarScannerLibrary'
+include ':zBarScannerDemo'
