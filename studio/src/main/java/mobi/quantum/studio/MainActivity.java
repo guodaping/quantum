@@ -19,6 +19,7 @@ import android.view.View;
 import mobi.quantum.studio.admob.FragmentBanner;
 import mobi.quantum.studio.admob.FragmentInterstitial;
 import mobi.quantum.studio.admob.FragmentNative;
+import mobi.quantum.studio.admob.FragmentNativeExpress;
 
 
 public class MainActivity extends AppCompatActivity
@@ -53,7 +54,8 @@ public class MainActivity extends AppCompatActivity
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         //Fragment fragment = new FragmentInterstitial();
         //Fragment fragment = new FragmentBanner();
-        Fragment fragment = new FragmentNative();
+        //Fragment fragment = new FragmentNative();
+        Fragment fragment = new FragmentNativeExpress();
 
         fragmentTransaction.add(R.id.fragment_placeholder, fragment);
         fragmentTransaction.commit();

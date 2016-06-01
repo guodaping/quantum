@@ -1,3 +1,3 @@
-include ':studio', ':AdStudy', ':Admob_Banner_Example', ':Admob_Interstitial_Example', ':Admob_Native'
+include ':studio', ':AdStudy', ':Admob_Banner_Example', ':Admob_Interstitial_Example', ':Admob_Native', ':Admob_Native_Express'
 include ':zBarScannerLibrary'
 include ':zBarScannerDemo'

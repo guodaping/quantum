@@ -2,6 +2,7 @@ package mobi.quantum.studio.admob;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -141,6 +142,8 @@ public class FragmentNative extends Fragment{
         ((TextView) adView.getCallToActionView()).setText(nativeContentAd.getCallToAction());
         ((TextView) adView.getAdvertiserView()).setText(nativeContentAd.getAdvertiser());
 
+        Log.e("TAG",nativeContentAd.getCallToAction().toString());
+        Log.e("TAG",nativeContentAd.getAdvertiser().toString());
         List<NativeAd.Image> images = nativeContentAd.getImages();
 
         if (images.size() > 0) {
